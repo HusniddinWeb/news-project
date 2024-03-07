@@ -1,0 +1,36 @@
+footer{
+    background: #f1f1f1;
+}
+.footerBlock{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+.footerBlock ul {
+    display: flex;
+    flex-direction: column;
+}
+.footerBlock ul p{
+    color: #07080A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 184.523%; /* 36.905px */
+    text-transform: uppercase;
+}
+.footerBlock ul li{
+    flex-direction: row;
+    color: #07080A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 184.523%;
+}
+
+.footerImg{
+    display: flex;
+    gap: 36px;
+}

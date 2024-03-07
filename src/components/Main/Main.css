@@ -1,0 +1,12 @@
+main{
+    margin-bottom: 60px;
+}
+.mainBlock{
+    display: flex;
+    gap: 14px;
+}
+.blockRight{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

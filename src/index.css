@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1920px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+
+.button{
+  border-radius: 3px;
+  background: #FFC01D;
+  border: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: .3s ease;
+
+  &:hover{
+    background: #ddb653;
+  }
+}
+
+.futer{
+  display: flex;
+}
